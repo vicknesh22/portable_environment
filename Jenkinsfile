@@ -1,9 +1,6 @@
 #!/bin/groovy
 pipeline {
   agent any
-  tools {
-    nodejs 'recent_node'
-  }
   stages {
     stage('Prepare') {
       steps {
