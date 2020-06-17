@@ -13,20 +13,6 @@ pipeline {
         }
       }
     }
-    stage('Test') {
-      steps {
-        script {
-          sh 'yarn test'
-        }
-      }
-    }
-    stage('Build') {
-      steps {
-        script {
-          sh 'yarn build'
-        }
-      }
-    }
     stage('Get JWT Token') {
       steps {
         script {
