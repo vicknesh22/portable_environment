@@ -2,7 +2,7 @@
 pipeline {
   agent any
   tools {
-    nodejs 'recent node'
+    nodejs 'recent_node'
   }
   stages {
     stage('Prepare') {
